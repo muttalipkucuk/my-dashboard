@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.kucuk.mydashboard",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.4.1",
+    "applicationType": "gateway",
+    "baseName": "MyDashboard",
+    "packageName": "com.kucuk.mydashboard",
+    "packageFolder": "com/kucuk/mydashboard",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "cassandra",
+    "devDatabaseType": "cassandra",
+    "prodDatabaseType": "cassandra",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MTdjYTZkOTlkZDlhM2NjOWY4Zjc1NTczYWFlZGM3NzNiNWVlYzUxYzhlZGE4OTU0NGJjMzU4NmJlMzEyYzQ5OTMwYTQ1MjQ5ZTRmNGRlYjA0NmJhM2I4YWVlNzJiMDNkZjUwZjkyYzJjZmJmYTExMjQwZWI0MTdlNGE2ZGI0ZGE=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "nl",
+      "tr"
+    ]
+  }
+}
